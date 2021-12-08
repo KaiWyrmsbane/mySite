@@ -1,0 +1,145 @@
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 3.125rem auto 0 auto;
+  font-family: 'Sacramento', sans-serif;  
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+p{
+  color: #40514E;
+  font-weight: bold;
+}
+
+hr{
+  background-color: white;
+  /*working on a dotted line*/
+  border: none;
+  border-top:1px dotted #EAF6F6;
+  border-color: lightgrey;
+  border-width: 6px;
+  height: 2px;
+  width: 3.5rem;
+  margin: 6rem auto;
+}
+
+
+/*----------------------------------class selectors------------------------------*/
+.bio{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  margin-top: 4.15rem;
+}
+
+.topContainer{
+  background-color:#eaf6f6;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 3.75rem;
+   
+}
+
+.topCloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottomCloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px; 
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.learning{
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.problemSolving{
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  margin-top: 5rem;
+  background-color: #66BFBF;
+  height: 8rem;
+}
+
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+
+}
+
+.my-button{
+  position: relative;
+  top: 4rem;
+  height: 6rem;
+}
+
+/*
+when working with margin remeber this (im pretty sure it works the same way with the others):
+1-value: all four sides
+2-value: 1st number -> top & bottom, 2nd number -> left & right
+3-value: 1st number -> top, 2nd number -> right & left, 3rd number -> bottom
+4-value: 1st -> top, 2nd -> right, 3rd -> bottom, 4th -> left
+*/

@@ -24,23 +24,27 @@ body{
   
   a{
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #EAF6F6;
   }
   
   p{
     color: #40514E;
     font-weight: bold;
+    line-height: 2;
   }
   
   hr{
-    background-color: white;
-    /*working on a dotted line*/
-    border: none;
-    border-top:1px dotted #EAF6F6;
-    border-color: lightgrey;
-    border-width: 6px;
-    height: 2px;
-    width: 3.5rem;
-    margin: 6rem auto;
+    /*this looks a lot better then the way it was done before*/
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100 auto;;
   }
   
   
@@ -77,7 +81,6 @@ body{
     width: 50%;
     margin: 100px auto;
     text-align: left;
-    line-height: 2;
   }
   
   .learning{
@@ -101,7 +104,7 @@ body{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -119,30 +122,25 @@ body{
   }
   
   .bottom-container{
-    margin-top: 5rem;
     background-color: #66BFBF;
-    height: 8rem;
+    padding: 50px 0 20px;
   }
   
-  .footer-link{
-    color: #11999E;
-    text-decoration: none;
-    position: relative;
-    top: 30px;
-    margin: 1rem;
+  .copyright{
+    color:  #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
   }
   
-  .my-button{
-    position: relative;
-    top: 4rem;
-    height: 6rem;
+  .intro{
+    width: 30%;
+    margin: auto;
   }
 
-  .sig{
-    position: relative;
-    top: 60px;
+  .contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
   }
-  
   /*
   when working with margin remeber this (im pretty sure it works the same way with the others):
   1-value: all four sides
